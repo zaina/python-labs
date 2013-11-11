@@ -26,7 +26,7 @@ def test_db_load():
     functions_list = [find_by_filing_date, find_by_patent_number, find_by_author]
     function = choice(functions_list)
     print function
-    function
+    function()
     return None
 
 test_db_load()
